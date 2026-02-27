@@ -8,9 +8,9 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 
-app.get('/test', (req, res) => {
-    res.json({message: 'Backend is working'});
-});
+// app.get('/test', (req, res) => {
+//     res.json({message: 'Backend is working'});
+// });
 
 app.use('/api/products', productRoutes);
 
