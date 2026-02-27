@@ -8,7 +8,7 @@ dotenv.config();
 
 const app = express();
 app.use(express.json());
-app.use(cors('*'));
+app.use(cors('https://mern-app-jk.vercel.app'));
 
 
 // app.get('/test', (req, res) => {
